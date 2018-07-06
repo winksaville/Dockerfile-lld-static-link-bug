@@ -14,8 +14,7 @@ RUN pacman -Syu --noconfirm \
   python \
   sudo \
   vim \
-  wget \
-  zlib
+  wget
 
 # Remove gcc and g++.
 # Symlink cc and c++ to clang
